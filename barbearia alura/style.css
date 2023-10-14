@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100vh;
+}
+
+.cabecalho {
+	background-image: linear-gradient(to bottom, #6b4f39, #8f6a4c);
+	margin-bottom: 5px;
+}
+
+.cabecalho h1 {
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.cabecalho_links {
+	background-color: #614c3b;
+	border-radius: 5px 5px 0 0;
+	width: 99%;
+	margin: 0 auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.cabecalho_links a {
+	color: white;
+	padding: 7px;
+	transition: 0.3s;
+}
+
+.cabecalho_links a:hover {
+	background-color: #443224;
+	border-radius: 5px;
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.principal_texto {
+	margin: auto;
+	width: 60%;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	line-height: 150%;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+ul {
+	line-height: 120%;
+}
+
+.card {
+	background-color: #11110f;
+	border-radius: 15px;
+	margin: 20px auto;
+	overflow: hidden;
+	width: 60%;
+	box-shadow: 1px 1px 10px rgb(0, 0, 0);
+
+}
+
+
+.card-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
+}
+
+.card-descrisao {
+	color: white;
+}
+
+.card-descrisao h3 {
+	font-size: 28px;
+}
+
+.card-content div {
+	flex: 1;
+}
+
+.card-content img {
+	max-width: 470px;
+}
+
+.rodape {
+	text-align: center;
+	color: white;
+	background-color: #140f0b;
+}
+
+.rodape p {
+	padding: 4px 0;
+}
